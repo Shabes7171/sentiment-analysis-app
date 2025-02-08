@@ -1,34 +1,10 @@
-# Sentiment Analysis App
-
-A Streamlit-based text classification application for sentiment analysis using machine learning.
-
-## Features
-
-- Text sentiment analysis (positive/negative classification)
-- Interactive web interface
-- Real-time predictions
-- Sample dataset for training
-- Simple and intuitive UI
-
-## Technologies Used
-
-- Python 3.11
-- Streamlit
-- scikit-learn
-- NLTK
-- pandas
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone [your-repo-url]
+git clone https://github.com/Shabes7171/sentiment-analysis-app.git
 cd sentiment-analysis-app
 ```
 
 2. Install the required packages:
 ```bash
-pip install -r requirements.txt
+pip install streamlit scikit-learn nltk pandas
 ```
 
 3. Run the application:
@@ -36,12 +12,16 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-## Usage
+## Deployment
 
-1. Launch the application
-2. Click "Load Sample Data & Train Model" in the sidebar
-3. Enter your text in the input area
-4. Click "Analyze Sentiment" to get the prediction
+This app is deployed using [Streamlit Cloud](https://streamlit.io/cloud). To deploy your own version:
+
+1. Fork this repository
+2. Visit [Streamlit Cloud](https://share.streamlit.io)
+3. Sign in with your GitHub account
+4. Click "New app"
+5. Select this repository and the main file (main.py)
+6. Click "Deploy"
 
 ## Project Structure
 
@@ -54,8 +34,3 @@ streamlit run main.py
 ├── utils/
 │   └── sample_data.py    # Sample dataset loader
 └── main.py               # Main Streamlit application
-```
-
-## License
-
-MIT License
